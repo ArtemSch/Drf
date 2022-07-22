@@ -1,0 +1,126 @@
+[
+  {
+    "model": "foods.foodcategory",
+    "pk": 1,
+    "fields": {
+      "created": "2022-07-22T09:14:40.564Z",
+      "modified": "2022-07-22T09:14:40.564Z",
+      "name_ru": "Напитки",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "foods.foodcategory",
+    "pk": 2,
+    "fields": {
+      "created": "2022-07-22T09:14:53.210Z",
+      "modified": "2022-07-22T09:14:53.210Z",
+      "name_ru": "Выпечка",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 20
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 1,
+    "fields": {
+      "created": "2022-07-22T09:16:05.632Z",
+      "modified": "2022-07-22T09:16:05.632Z",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 1,
+      "internal_code": null,
+      "name_ru": "Чай",
+      "description_ru": "Чай 100 гр",
+      "description_en": null,
+      "description_ch": null,
+      "cost": "123.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 2,
+    "fields": {
+      "created": "2022-07-22T09:16:23.689Z",
+      "modified": "2022-07-22T09:16:23.689Z",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 2,
+      "internal_code": null,
+      "name_ru": "Кола",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "123.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 3,
+    "fields": {
+      "created": "2022-07-22T09:16:31.924Z",
+      "modified": "2022-07-22T09:16:31.924Z",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 3,
+      "internal_code": null,
+      "name_ru": "Спрайт",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "123.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 4,
+    "fields": {
+      "created": "2022-07-22T09:16:47.251Z",
+      "modified": "2022-07-22T09:16:47.251Z",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 4,
+      "internal_code": null,
+      "name_ru": "Байкал",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "123.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "foods.food",
+    "pk": 5,
+    "fields": {
+      "created": "2022-07-22T09:17:03.368Z",
+      "modified": "2022-07-22T09:17:03.368Z",
+      "category": 2,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 1,
+      "internal_code": null,
+      "name_ru": "Ватрушка",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "123.00",
+      "is_publish": true,
+      "additional": []
+    }
+  }
+]
